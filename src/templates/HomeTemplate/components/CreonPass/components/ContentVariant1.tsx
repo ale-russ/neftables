@@ -1,9 +1,9 @@
 import React from "react";
 import { ContentText } from "./ContentText";
 
-export const ContentVariant1 = () => {
+export const CreonHighlights = () => {
   return (
-    <div className="hidden xl:flex flex-col gap-4">
+    <div className="flex flex-col gap-4">
       <ContentText>
         Pre-launch investment opportunities for upcoming AI projects
       </ContentText>

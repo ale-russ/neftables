@@ -7,8 +7,7 @@ import Heading4 from "@/components/typography/Heading4";
 import BodyText from "@/components/typography/BodyText";
 import { NFT } from "./components/NFT";
 
-import { ContentVariant1 } from "./components/ContentVariant1";
-import { ContentVariant2 } from "./components/ContentVariant2";
+import { CreonHighlights } from "./components/ContentVariant1";
 
 const CreonPass = () => {
   return (
@@ -27,17 +26,11 @@ const CreonPass = () => {
             <div className="w-full md:hidden h-[485px] relative">
               <NFT />
             </div>
-            <ContentVariant1 />
-            <ContentVariant2 />
+            <CreonHighlights />
             <Link href="#" className="mt-10">
               <BodyText
-                className={`transform-all w-full md:w-[231px] xl:w-[453px] h-[46px] xl:h-[54px] rounded-md overflow-hidden group bg-gradient-to-r from-primary to-secondary hover:to-primary`}
+                className={`transform-all w-full xl:w-[453px] h-[46px] xl:h-[54px] rounded-md overflow-hidden group bg-gradient-to-r from-primary to-secondary hover:to-primary`}
               >
-                <span
-                  className={`transform-all w-full h-full flex items-center justify-center group-hover:translate-y-[-100%]`}
-                >
-                  Buy Creon Pass
-                </span>
                 <span
                   className={`transform-all w-full h-full flex items-center justify-center group-hover:translate-y-[-100%]`}
                 >
