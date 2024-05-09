@@ -1,7 +1,7 @@
 import VideoAnimation from "@/components/videos/VideoAnimation";
 import React from "react";
 
-import VideoOverlay from "../../components/VideoOverlay";
+import VideoOverlay from "../../VideoOverlay";
 
 export const NFT = () => {
   return (

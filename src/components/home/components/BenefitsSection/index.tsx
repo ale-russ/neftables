@@ -5,13 +5,11 @@ import {
   benefitsCardData,
   benefitsCardDataLG,
 } from "../../constants/benefits-data";
-import FooterBackground from "../components/FooterBackground";
 import { BenefitsCard } from "./BenefitsCard";
 
 const BenefitsSection = () => {
   return (
     <section className="w-full flex min-h-[100vh] bg-black py-10 relative">
-      <FooterBackground wrapperClass="xl:hidden " />
       <WrapperPadding className="w-full flex justify-center items-center">
         <div className="w-full max-w-app-w z-0 pb-[100px] xl:pb-2">
           <div className="hidden xl:flex gap-6">

@@ -3,7 +3,7 @@ import React from "react";
 import BodyText from "@/components/typography/BodyText";
 import Heading4 from "@/components/typography/Heading4";
 import VideoAnimation from "@/components/videos/VideoAnimation";
-import VideoOverlay from "../../components/VideoOverlay";
+import VideoOverlay from "../../VideoOverlay";
 
 export const ContentXL = () => {
   return (

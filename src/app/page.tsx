@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeTemplate from '@/templates/HomeTemplate';
+import HomeTemplate from '@/components/home';
 
 const page = () => {
     return <HomeTemplate />;
