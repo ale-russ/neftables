@@ -20,7 +20,7 @@ const OurMissionSection = () => {
               </span>
             </Heading3>
             <MissionImage
-              wrapperClass="h-[182px] lg:h-[377px] xl:h-[450px] mt-[-40px]   lg:block lg:overflow-visible"
+              wrapperClass="h-[182px] lg:h-[377px] xl:h-[450px] mt-[-40px]   lg:block lg:overflow-visible sm:flex sm:flex justify-center items-center sm:mt-20"
               imageContainer="w-[302px] h-[182px] lg:w-[628px] lg:h-[377px] xl:w-[836px] xl:h-[502px] mt-4"
             />
           </div>
@@ -28,11 +28,6 @@ const OurMissionSection = () => {
             <div className="w-full max-w-[550px]">
               <Accordion />
             </div>
-            {/* <MissionImage
-              wrapperClass="h-[377px] ml-[-20%] mt-auto mb-[-100px] hidden md:block lg:hidden"
-              innerBoxClass="right-[calc(0vw-150px)]"
-              imageContainer="w-[628px] h-[377px]"
-            /> */}
           </div>
         </div>
       </WrapperPadding>

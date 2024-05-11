@@ -23,9 +23,10 @@ export const MissionImage = ({
       <div className={twMerge("absolute ", innerBoxClass)}>
         <div className={twMerge("relative", imageContainer)}>
           <Image
-            src={"/images/CREON 1.svg"}
+            src={"/images/CREON122.png"}
             fill
             alt=""
+            sizes="(min-width:768px) 100vw, (max-width:1200px) 50vw,33vw"
             style={{ objectFit: "cover" }}
           />
         </div>

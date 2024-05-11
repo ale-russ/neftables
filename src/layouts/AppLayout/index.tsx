@@ -4,7 +4,7 @@ import Header from './Header';
 
 const AppLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
     return (
-        <div className="flex flex-1 flex-col relative font-satoshi-regular">
+        <div className="flex flex-1 flex-col relative font-satoshi-regular bg-black">
             <Header />
             <main className="flex flex-col flex-1 relative">
                 {children}
